@@ -1,0 +1,21 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "partials/base";
+
+/* Start of any Compass imports needed */
+
+/* End Compass imports */
+								
+@import "html5boilerplate";
+
+@import "partials/overrides";  // any website specific overrides and/or additions can go here
+
+@import "html5boilerplate/helpers";
+
+//@import "partials/media";    // if doing 'mobile first' development, uncomment these and put any css needed to make website adjust for larger screens
+								// Or, adjust them to go down from regular website size instead of up from mobile size
+								
+@import "partials/print";

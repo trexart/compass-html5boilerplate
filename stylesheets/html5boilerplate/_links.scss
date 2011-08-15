@@ -1,0 +1,7 @@
+a { color: $link-color; }
+a:visited { color: $link-visited-color; }
+a:hover { color: $link-hover-color; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
